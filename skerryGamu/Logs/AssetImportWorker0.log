@@ -9,7 +9,7 @@ Running under Rosetta:   YES
 Available memory:        18432 MB
 Using pre-set license
 Pro License: YES
-2024-10-16 11:30:28.991 Unity[24951:1869016] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-10-17 10:54:39.567 Unity[30051:2112056] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61268
+49993
 -job-worker-count
 5
 -background-job-worker-count
@@ -66,13 +66,13 @@ Successfully changed project path to: /Users/jerahmeelmendoza/Documents/GitHub/S
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8710341184] Host "[IP] 192.168.86.40 [Port] 0 [Flags] 2 [Guid] 1594149321 [EditorId] 1594149321 [Version] 1048832 [Id] OSXEditor(0,jerahmeels-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [8710341184] Host "[IP] 192.168.86.40 [Port] 0 [Flags] 2 [Guid] 1594149321 [EditorId] 1594149321 [Version] 1048832 [Id] OSXEditor(0,jerahmeels-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8746078784] Host "[IP] 192.168.86.40 [Port] 0 [Flags] 2 [Guid] 1233259222 [EditorId] 1233259222 [Version] 1048832 [Id] OSXEditor(0,jerahmeels-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8746078784] Host "[IP] 192.168.86.40 [Port] 0 [Flags] 2 [Guid] 1233259222 [EditorId] 1233259222 [Version] 1048832 [Id] OSXEditor(0,jerahmeels-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 5.23 ms.
 Initialize engine version: 2023.2.3f1 (21747dafc6ee)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Assets
@@ -86,7 +86,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56951
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56051
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -101,45 +101,45 @@ icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.3f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003054 seconds.
-- Loaded All Assemblies, in  0.531 seconds
+Registered in 0.000986 seconds.
+- Loaded All Assemblies, in  0.551 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 212 ms
+Android Extension - Scanning For ADB Devices 231 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  1.374 seconds
-Domain Reload Profiling: 1907ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  1.525 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (214ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (203ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (147ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1375ms)
+	FinalizeReload (1526ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1273ms)
+		SetupLoadedEditorAssemblies (1407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (528ms)
+			InitializePlatformSupportModulesInManaged (581ms)
 			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (21ms)
-			ProcessInitializeOnLoadAttributes (508ms)
-			ProcessInitializeOnLoadMethodAttributes (207ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -160,616 +160,8 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.615 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.134 seconds
-Domain Reload Profiling: 3750ms
-	BeginReloadAssembly (875ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (300ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (602ms)
-		LoadAssemblies (498ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (149ms)
-			BuildScriptInfoCaches (37ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2136ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1629ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (1400ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launching external process: /Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4221 unused Assets / (0.8 MB). Loaded Objects now: 4786.
-Memory consumption went from 131.9 MB to 131.1 MB.
-Total: 6.216000 ms (FindLiveObjects: 1.002791 ms CreateObjectMapping: 0.140042 ms MarkObjects: 3.501458 ms  DeleteObjects: 1.571042 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 128927.461083 seconds.
-  path: Assets/laxer tree pkg/Models/baum hd pine fbx.fbx
-  artifactKey: Guid(7163db7426b13a345b09fa28a500a5e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum hd pine fbx.fbx using Guid(7163db7426b13a345b09fa28a500a5e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75d8c91e0f30c4a3f34dee77fa776b45') in 0.257946958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/laxer tree pkg/README.txt
-  artifactKey: Guid(f4be7ff4c3a4450439a3b5a35d3d1b8d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/README.txt using Guid(f4be7ff4c3a4450439a3b5a35d3d1b8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98e40bd8ea3a0dce077c984e50b39497') in 0.009687625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Scenes/textures/NewLayer 4.terrainlayer
-  artifactKey: Guid(d3354730bd7730c40940eeb3efd10dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 4.terrainlayer using Guid(d3354730bd7730c40940eeb3efd10dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7562ad5ea2b0f09ba59787f55aeb78f1') in 0.015238084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Scenes/textures/NewLayer 6.terrainlayer
-  artifactKey: Guid(56d99a0701245074c813681ff7b71762) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 6.terrainlayer using Guid(56d99a0701245074c813681ff7b71762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8350ef7188ee07b501949359e12624dd') in 0.006635583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Scenes/textures/NewLayer.terrainlayer
-  artifactKey: Guid(0f6ddf7fdb911b945bd5c7ac1de7ebdd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer.terrainlayer using Guid(0f6ddf7fdb911b945bd5c7ac1de7ebdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2fd0585b94b383e334281906b6d8c0e') in 0.0050685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/bark wh.mat
-  artifactKey: Guid(ec234b86cf157d94e9dd6a5ee9b31eee) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/bark wh.mat using Guid(ec234b86cf157d94e9dd6a5ee9b31eee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aed52bcc6815ba202e625a73ed0204e') in 0.035536625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/bark pine wh lw.mat
-  artifactKey: Guid(bd89ecb7585e33f41b8990012887c72c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/bark pine wh lw.mat using Guid(bd89ecb7585e33f41b8990012887c72c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc9f4a90324494de31b28b7bd720d60e') in 0.133925333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Scripts/mainMenu.cs
-  artifactKey: Guid(f5dbc1f2c7d654c4d874750d8eedada2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/mainMenu.cs using Guid(f5dbc1f2c7d654c4d874750d8eedada2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ed126f939d047e49aa9a35230fcbd15') in 0.004713042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Scenes/textures/b99e82ce71d673a6bff4f667a65ce062.jpg
-  artifactKey: Guid(b6e815c27236f564392a1bba41bb65a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/b99e82ce71d673a6bff4f667a65ce062.jpg using Guid(b6e815c27236f564392a1bba41bb65a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7f797f3ffaffbb4a7dce8fb9a2cc047') in 0.045150292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Scripts/monsterAI.cs
-  artifactKey: Guid(6a430217f5d3846dc9809be0a12b23ef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/monsterAI.cs using Guid(6a430217f5d3846dc9809be0a12b23ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55dd269a13d641117f087e59119c1a8b') in 0.002169125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/laxer tree pkg/Textures/ast5.png
-  artifactKey: Guid(182472b00808f914fa8dc807ff58b574) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/ast5.png using Guid(182472b00808f914fa8dc807ff58b574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e397309cde1442e6aad71aabdc0b6ea9') in 0.010686709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast4 lw 1.mat
-  artifactKey: Guid(81dc5907a40a50040823d8934dd4d2b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast4 lw 1.mat using Guid(81dc5907a40a50040823d8934dd4d2b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db1b1d024142ac5cc0aa16877a3c425c') in 0.006792125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Scenes/textures/16483.jpg
-  artifactKey: Guid(090793f3bbcdc834e8c9d92bff877775) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/16483.jpg using Guid(090793f3bbcdc834e8c9d92bff877775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0c17ae0d647d1323a2de3b4071622de') in 0.011423792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/laxer tree pkg/Textures/bark pine wh.png
-  artifactKey: Guid(a0ee16bfb2caadb49a6c4dd528026e43) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/bark pine wh.png using Guid(a0ee16bfb2caadb49a6c4dd528026e43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eba30e35d9f4e42e62c638d16ff0f7a5') in 0.009008083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/laxer tree pkg/Textures/ast3.png
-  artifactKey: Guid(d27897795cf19c047a586837b4201ce5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/ast3.png using Guid(d27897795cf19c047a586837b4201ce5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ee20879942bafe368af99fd2ec3e0b6') in 0.0100875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/laxer tree pkg/Models/baum hd fbx.fbx
-  artifactKey: Guid(9b27b908e66bddb42940797bc06df908) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum hd fbx.fbx using Guid(9b27b908e66bddb42940797bc06df908) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf43f84c350c5ac56f74ba1465467d98') in 0.016404833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/laxer tree pkg/Models/baum hd med fbx.fbx
-  artifactKey: Guid(8606c21208a6abf4aa86e39e9938598b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum hd med fbx.fbx using Guid(8606c21208a6abf4aa86e39e9938598b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b147ec5972ae789ade772d1113a62022') in 0.013274333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/laxer tree pkg/Mobile/Normal Edited/baum ld2(enhanced).prefab
-  artifactKey: Guid(3217b1ce4679df94f8c9cd33e8990c0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/Normal Edited/baum ld2(enhanced).prefab using Guid(3217b1ce4679df94f8c9cd33e8990c0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e34139f51bf16944b8b1c300d62db777') in 0.007684458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(0eb10c8ac6b9fdc4da4709798c45ad3e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/New Terrain.asset using Guid(0eb10c8ac6b9fdc4da4709798c45ad3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31964140e5ff94daea898a2ee5bd1a41') in 0.01671325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast5 lw 1.mat
-  artifactKey: Guid(281d9a47040de98429f24c446985694d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast5 lw 1.mat using Guid(281d9a47040de98429f24c446985694d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acc3e845f66a8d33d6889ab6ea0e787e') in 0.003779875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Scenes/textures/NewLayer 7.terrainlayer
-  artifactKey: Guid(8b014787def4c09409ea12f30c6281fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 7.terrainlayer using Guid(8b014787def4c09409ea12f30c6281fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cda43a2c2dc9287393807e35162c4f0') in 0.005374833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/laxer tree pkg/Models/baum ld1(enhanced).asset
-  artifactKey: Guid(719abc69a3025404a8ad750c92b489ec) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum ld1(enhanced).asset using Guid(719abc69a3025404a8ad750c92b489ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '361a4d1fa11cdeb28d310805dfcc0da0') in 0.003445625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/laxer tree pkg/Mobile/baum ld2 mobile.prefab
-  artifactKey: Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/baum ld2 mobile.prefab using Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e79a7eafa18093fce8efec4669980044') in 0.004669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Scenes/textures/DO5z_seamless-grass.jpg
-  artifactKey: Guid(5f2abaab9778dc74396d1613860b541e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/DO5z_seamless-grass.jpg using Guid(5f2abaab9778dc74396d1613860b541e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bf521d91ea2f9103f5cb09683c29543') in 0.010403583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Scripts/flashlightMovement.cs
-  artifactKey: Guid(4aedb1a271ac944bf9cdb799dfa0bde0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/flashlightMovement.cs using Guid(4aedb1a271ac944bf9cdb799dfa0bde0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00bceda77a00b37214dfbb31349cfb97') in 0.001989583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Scenes/textures/closeup-of-the-rough-stone-texture-of-a-big-rock-surface-for-natural-background-concepts-closeup-dirty-natural-stone-background-texture-photo.jpg
-  artifactKey: Guid(9c6681ec98d7cc94aaea89d7f865a2a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/closeup-of-the-rough-stone-texture-of-a-big-rock-surface-for-natural-background-concepts-closeup-dirty-natural-stone-background-texture-photo.jpg using Guid(9c6681ec98d7cc94aaea89d7f865a2a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe9b22c4223f4ca70567dd5bc4ef44ed') in 0.010811083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/bark wh lw.mat
-  artifactKey: Guid(62c004aeef1076648a99aaa35156912b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/bark wh lw.mat using Guid(62c004aeef1076648a99aaa35156912b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa2d794fb5b0239a89004578b0704648') in 0.003176792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
-  artifactKey: Guid(b5ad96e0bfeb242bfb3ac7c1281d2478) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(b5ad96e0bfeb242bfb3ac7c1281d2478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e05b1bb59809808c438aa5b853e2b457') in 0.026553959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/laxer tree pkg/Mobile/baum ld1 mobile.prefab
-  artifactKey: Guid(23062208c1e1ace4d9e5270be8b68dcb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/baum ld1 mobile.prefab using Guid(23062208c1e1ace4d9e5270be8b68dcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '044dbcfff1da7a3ca30560cb04599f0f') in 0.005798542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast3 lw 1.mat
-  artifactKey: Guid(6ece0bdbdb22d0f4e9c4110d90e77be6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast3 lw 1.mat using Guid(6ece0bdbdb22d0f4e9c4110d90e77be6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4db8074ac6fa71c54e614b121ee67c87') in 0.003653375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003834 seconds.
-  path: Assets/Scenes/textures/Screenshot 2024-10-10 112134.png
-  artifactKey: Guid(80e8aec5cc179db40bcb4629a75e271e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/Screenshot 2024-10-10 112134.png using Guid(80e8aec5cc179db40bcb4629a75e271e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68cb26c94f3189a32ff19c3511ceb04a') in 0.010399 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast5.mat
-  artifactKey: Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast5.mat using Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1749b1784302d02e3ced0e5133d1a8e7') in 0.003217333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/laxer tree pkg/Models/baum ld0(enhanced).asset
-  artifactKey: Guid(a59384daf2a0cf3468a8629697d40866) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum ld0(enhanced).asset using Guid(a59384daf2a0cf3468a8629697d40866) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73c876ec85ae6f0cb1a3b4b6bef17863') in 0.002144459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Scenes/textures/Screenshot 2024-10-10 110822.png
-  artifactKey: Guid(b3b6815587beb38439da67144d8b5358) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/Screenshot 2024-10-10 110822.png using Guid(b3b6815587beb38439da67144d8b5358) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce170a1d9d16de6db657b8c01f885436') in 0.007924208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/laxer tree pkg/Textures/bark.png
-  artifactKey: Guid(8875beb1e4179154eb0ce892639eb118) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/bark.png using Guid(8875beb1e4179154eb0ce892639eb118) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b824edb4978ba25b7baf682230e5f2a') in 0.009989167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/laxer tree pkg/Ambient-Occlusion/baum ld0.prefab
-  artifactKey: Guid(232d918e673de694d8a118b6efe0bf6f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Ambient-Occlusion/baum ld0.prefab using Guid(232d918e673de694d8a118b6efe0bf6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf5e6a36f0caf55658651256d4a63b14') in 0.006330042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Scenes/textures/NewLayer 8.terrainlayer
-  artifactKey: Guid(48310645e2f158b43ab75bf027f5a8e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 8.terrainlayer using Guid(48310645e2f158b43ab75bf027f5a8e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71445796df2c5af667685259f2c4e22f') in 0.003143208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast4 lw.mat
-  artifactKey: Guid(76a056ccc1b93e849bc3661d612a95ea) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast4 lw.mat using Guid(76a056ccc1b93e849bc3661d612a95ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '244fbf851c368bedd3c442dcd8d348d4') in 0.004300458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/laxer tree pkg/Textures/bark wh.png
-  artifactKey: Guid(745e2f075c26fd84b9471b243d577562) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/bark wh.png using Guid(745e2f075c26fd84b9471b243d577562) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10745d4cbff637c5199424b5169f6efd') in 0.008830292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Scenes/textures/360_F_283175440_jJrqEx15ir8KZ5Nbhz1FfAAky8jnlQsK.jpg
-  artifactKey: Guid(599202ef8832ea5459ef554e0298c6f5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/360_F_283175440_jJrqEx15ir8KZ5Nbhz1FfAAky8jnlQsK.jpg using Guid(599202ef8832ea5459ef554e0298c6f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b06c0e612594b273a4d049294e82446a') in 0.011816667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/laxer tree pkg/Textures/bark pine.png
-  artifactKey: Guid(5acaa997b6100fb47b024c69aeb52788) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/bark pine.png using Guid(5acaa997b6100fb47b024c69aeb52788) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0108f856e669cc2b42d918b97bda5faf') in 0.009102167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4de8c47dbbcf4dba91bb518148cb6c84') in 0.002613084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Scenes/textures/NewLayer 1.terrainlayer
-  artifactKey: Guid(fd1bdf55b3cccee4bb426c7853719abc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 1.terrainlayer using Guid(fd1bdf55b3cccee4bb426c7853719abc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaf827ac442f0c0cae502aed19d46612') in 0.002694667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/laxer tree pkg/Mobile/Normal Edited/baum ld0(enhanced).prefab
-  artifactKey: Guid(0cd0601cf7da9dc4f80b1d60facd05c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/Normal Edited/baum ld0(enhanced).prefab using Guid(0cd0601cf7da9dc4f80b1d60facd05c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cacf242432e1732665001ea42ba1db7d') in 0.00519075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Scenes/textures/NewLayer 3.terrainlayer
-  artifactKey: Guid(f57d9c886e9c2de448e6d6edc5171b69) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 3.terrainlayer using Guid(f57d9c886e9c2de448e6d6edc5171b69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ad084b2412f0cb243695b76c22b502f') in 0.003345917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast4.mat
-  artifactKey: Guid(3c6caab7cf56b024097f005008285518) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast4.mat using Guid(3c6caab7cf56b024097f005008285518) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '093e3c7e6c3aae1a58d50cb4edbbeafb') in 0.003381125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
-  artifactKey: Guid(dc7e774e17b7b4a7097699515a9fc857) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(dc7e774e17b7b4a7097699515a9fc857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4e4c855c585b9d8e9885f454d272cc2') in 0.007226625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Scripts/pickUpLetter.cs
-  artifactKey: Guid(059cfa33b56f4443a8776d99ea5c5f37) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/pickUpLetter.cs using Guid(059cfa33b56f4443a8776d99ea5c5f37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09350180ee774f0f667f814e174aad8f') in 0.001791875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/laxer tree pkg/Ambient-Occlusion/baum ld1.prefab
-  artifactKey: Guid(6b4b29e49f76c9f46b7f3594d299d8d9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Ambient-Occlusion/baum ld1.prefab using Guid(6b4b29e49f76c9f46b7f3594d299d8d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09034ca312eed73ce62b84d10e27eb83') in 0.00514075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Scripts/slenderAI.cs
-  artifactKey: Guid(e719a5937da4546eb81b06f85331c1f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/slenderAI.cs using Guid(e719a5937da4546eb81b06f85331c1f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bad0239fd5a25e5075c2fbcedee64d6a') in 0.001736208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/laxer tree pkg/Models/baum ld2(enhanced).asset
-  artifactKey: Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/baum ld2(enhanced).asset using Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08b1f1e79f4f302a3001f105294b35bf') in 0.002184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/laxer tree pkg/Mobile/baum ld0 mobile.prefab
-  artifactKey: Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/baum ld0 mobile.prefab using Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aae56f1009a4e8f075c95573835f44e5') in 0.004677917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/bark pine wh.mat
-  artifactKey: Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/bark pine wh.mat using Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fa23dfbc10d1ef50eb2604ef977b402') in 0.0037445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/laxer tree pkg/Textures/ast4.png
-  artifactKey: Guid(3b8d65f128cc7484a9c14ba4d91ea50d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Textures/ast4.png using Guid(3b8d65f128cc7484a9c14ba4d91ea50d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faef86bbcb6735b5ea92f6e300813bf1') in 0.008704291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Scenes/textures/NewLayer 2.terrainlayer
-  artifactKey: Guid(dd22d74fc5732c64e91e7aabc77f2dfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 2.terrainlayer using Guid(dd22d74fc5732c64e91e7aabc77f2dfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '266c6c53ae7bf51a475dbc39d79d6ea4') in 0.004126292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Scenes/textures/NewLayer 5.terrainlayer
-  artifactKey: Guid(d57ab06e7caf72145ab5e79be140b414) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/NewLayer 5.terrainlayer using Guid(d57ab06e7caf72145ab5e79be140b414) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8aaa3c3ccfd4fa3f26f8dbed19823c9') in 0.003359041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/laxer tree pkg/Ambient-Occlusion/baum ld2.prefab
-  artifactKey: Guid(011ca9ca00b21594c8a16ee78d6a8c7c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Ambient-Occlusion/baum ld2.prefab using Guid(011ca9ca00b21594c8a16ee78d6a8c7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fef5f89ec522f059d7602dc89510138f') in 0.005826042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast3 lw.mat
-  artifactKey: Guid(a05189f4f1fcfd64dad1a2d9c28d6aa5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast3 lw.mat using Guid(a05189f4f1fcfd64dad1a2d9c28d6aa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbdd54666d1d17ce3c3848cc96af0f5b') in 0.003883958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Scripts/footstepSounds.cs
-  artifactKey: Guid(1520dc66a36a44daf91afc27013e95f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/footstepSounds.cs using Guid(1520dc66a36a44daf91afc27013e95f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '795b64929c2e23a662d3714321d9c14c') in 0.0024135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Scenes/textures/Seamless ground sand texture (4).jpg
-  artifactKey: Guid(38dd21b612680fd43864e8af412dbb68) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/Seamless ground sand texture (4).jpg using Guid(38dd21b612680fd43864e8af412dbb68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ecf1cd4829465c65effdd0bab5d6322') in 0.008467291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Scripts/disableObject.cs
-  artifactKey: Guid(98b32b02e7fb1431786b5c35b997e4ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/disableObject.cs using Guid(98b32b02e7fb1431786b5c35b997e4ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eb7755b790135d4c2a1e65d853d2428') in 0.002375667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast5 lw.mat
-  artifactKey: Guid(3509f5c76776147409e86d25a1d3af9d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast5 lw.mat using Guid(3509f5c76776147409e86d25a1d3af9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16aee91338ec2f00cafedd87ae21af71') in 0.004958084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scenes/textures/crop_gravel-072_2.jpg
-  artifactKey: Guid(cb4516994bffc8a4582266b936a17b28) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/textures/crop_gravel-072_2.jpg using Guid(cb4516994bffc8a4582266b936a17b28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7de5640474a8c95e9e6afb3b69883c41') in 0.010828208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/laxer tree pkg/Mobile/Normal Edited/baum ld1(enhanced).prefab
-  artifactKey: Guid(3176aeb440566664ab0bd513a6a46280) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Mobile/Normal Edited/baum ld1(enhanced).prefab using Guid(3176aeb440566664ab0bd513a6a46280) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81c26a7b64a8570dd4a18ec01bbfa0ae') in 0.004559583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast3.mat
-  artifactKey: Guid(c575968aacb53144381d64ddfaa6c2f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast3.mat using Guid(c575968aacb53144381d64ddfaa6c2f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a68c329d55d1552f19f73aa50e2cb94') in 0.004690333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
-  artifactKey: Guid(42d5f49c372214b0d9ced34ad4ffe4a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(42d5f49c372214b0d9ced34ad4ffe4a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bf6be7ddbbe195e4231cdc8bed13f41') in 0.00505975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/laxer tree pkg/Models/Materials/ast 3 cr dark.mat
-  artifactKey: Guid(adf985a34b2482e408a5b8e71137ad50) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/laxer tree pkg/Models/Materials/ast 3 cr dark.mat using Guid(adf985a34b2482e408a5b8e71137ad50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76f63de54b16632d8618dc2b230e18e4') in 0.006550208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001117 seconds.
-  path: Assets/Scripts/lookAtSlender.cs
-  artifactKey: Guid(165e3fd9bbd3043a0844e95400455fb9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/lookAtSlender.cs using Guid(165e3fd9bbd3043a0844e95400455fb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5c093fd8b5b65d6a38e0805484b63cb') in 0.003458792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.232 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.311 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -783,47 +175,80 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.352 seconds
-Domain Reload Profiling: 3588ms
-	BeginReloadAssembly (482ms)
+- Finished resetting the current domain, in  2.654 seconds
+Domain Reload Profiling: 3966ms
+	BeginReloadAssembly (558ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (50ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (141ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (626ms)
-		LoadAssemblies (620ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (491ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (8ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2354ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (159ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2655ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1702ms)
+		SetupLoadedEditorAssemblies (2096ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
+			InitializePlatformSupportModulesInManaged (63ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (1474ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (1846ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4287 unused Assets / (0.5 MB). Loaded Objects now: 4862.
-Memory consumption went from 143.6 MB to 143.1 MB.
-Total: 5.474875 ms (FindLiveObjects: 0.392584 ms CreateObjectMapping: 0.180334 ms MarkObjects: 3.838333 ms  DeleteObjects: 1.061833 ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4316 unused Assets / (1.0 MB). Loaded Objects now: 4890.
+Memory consumption went from 131.1 MB to 130.1 MB.
+Total: 4.770417 ms (FindLiveObjects: 0.407041 ms CreateObjectMapping: 0.172917 ms MarkObjects: 3.471000 ms  DeleteObjects: 0.718625 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 145253.685978 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aec404e0ac21b4294318a6cf61fbe0ba') in 0.006158208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets
+  artifactKey: Guid(ff9c87b9215524a74b1ae8b513cab5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets using Guid(ff9c87b9215524a74b1ae8b513cab5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b28be7625f7858364dc5d0470643091b') in 0.000638667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7494416b0b0ad8681f164dc1a5e3134') in 0.05864075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.398446 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models
+  artifactKey: Guid(34f03838a812f0e41b1e3da17ff4038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models using Guid(34f03838a812f0e41b1e3da17ff4038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bbbb1a864c41e4fd4577d3a51a0f8e8') in 0.000417625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -841,8 +266,8 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jerahmeelmendoza/Documents/GitHub/Safe_Halloween/skerryGamu/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.182 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.954 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -852,44 +277,159 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.346 seconds
-Domain Reload Profiling: 3530ms
-	BeginReloadAssembly (457ms)
+- Finished resetting the current domain, in  2.373 seconds
+Domain Reload Profiling: 3329ms
+	BeginReloadAssembly (327ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (50ms)
+		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (126ms)
+		CreateAndSetChildDomain (92ms)
 	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (602ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (476ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (58ms)
-				TypeCache.ScanAssembly (43ms)
-			BuildScriptInfoCaches (125ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (147ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (2347ms)
+	FinalizeReload (2374ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1777ms)
+		SetupLoadedEditorAssemblies (1838ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (1554ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			InitializePlatformSupportModulesInManaged (111ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (1572ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 5.34 ms.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4306 unused Assets / (249.6 KB). Loaded Objects now: 4891.
-Memory consumption went from 145.4 MB to 145.1 MB.
-Total: 4.607875 ms (FindLiveObjects: 0.443834 ms CreateObjectMapping: 0.138083 ms MarkObjects: 3.423750 ms  DeleteObjects: 0.601459 ms)
+Unloading 4314 unused Assets / (0.8 MB). Loaded Objects now: 4894.
+Memory consumption went from 140.9 MB to 140.1 MB.
+Total: 4.125167 ms (FindLiveObjects: 0.393625 ms CreateObjectMapping: 0.139792 ms MarkObjects: 3.050167 ms  DeleteObjects: 0.541000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 582.746701 seconds.
+  path: Assets/Meta Quest 2 Touch
+  artifactKey: Guid(d82ffaa25e92a40c4a11ca2d49ca42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch using Guid(d82ffaa25e92a40c4a11ca2d49ca42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67c36868a0103bb67f6c0e3e417fb083') in 0.006610334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018876 seconds.
+  path: Assets/Meta Quest 2 Touch/Quest2_controller.png
+  artifactKey: Guid(1ad66212c13f743ec9244da2ba9024b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch/Quest2_controller.png using Guid(1ad66212c13f743ec9244da2ba9024b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f49b4258116d83c26f0b8f7a2297db0c') in 0.181392417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Meta Quest 2 Touch/quest2_controllers_div1.fbx
+  artifactKey: Guid(c614c73d69cff4536927bfcd92fc062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch/quest2_controllers_div1.fbx using Guid(c614c73d69cff4536927bfcd92fc062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f2a6fe4597a77b01e83a182a763d7c6') in 0.846570875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.673254 seconds.
+  path: Assets/Meta Quest 2 Touch/quest2Textures1k
+  artifactKey: Guid(cbad361506bc44a67a0715cfc52a1886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch/quest2Textures1k using Guid(cbad361506bc44a67a0715cfc52a1886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5d8d2252f1ddaafa7b954e03ab4e42f') in 0.000673416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038243 seconds.
+  path: Assets/Meta Quest 2 Touch/quest2Textures1k/nextControllerBoth_color1k.png
+  artifactKey: Guid(524cecb908d5541e9bd38df58178c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch/quest2Textures1k/nextControllerBoth_color1k.png using Guid(524cecb908d5541e9bd38df58178c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3720944fb788a63f9ac8f3fdb87b958b') in 0.020620375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Meta Quest 2 Touch/quest2Textures1k/nextControllerBoth_properties1kGLTF.tga
+  artifactKey: Guid(d93c45ed0e5c24732ba1b9216247536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meta Quest 2 Touch/quest2Textures1k/nextControllerBoth_properties1kGLTF.tga using Guid(d93c45ed0e5c24732ba1b9216247536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc3811a7d73b1eaa982b4b776bc64d23') in 0.0046125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 370.367637 seconds.
+  path: Assets/laxer tree pkg/Models/baum ld0(enhanced).asset
+  artifactKey: Guid(a59384daf2a0cf3468a8629697d40866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/baum ld0(enhanced).asset using Guid(a59384daf2a0cf3468a8629697d40866) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05bfd0ae9016551c8820a519f65f8523') in 0.08166075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6144a3f77bde364409f333b4ad0e9990') in 0.0696565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/laxer tree pkg/Models/baum ld2(enhanced).asset
+  artifactKey: Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/baum ld2(enhanced).asset using Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7055d225234e4e0e6a49f1b44c91264') in 0.020975625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747219 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47dffcec7e19cc7aef4d848abd1a9b43') in 0.030362875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/laxer tree pkg/Models/baum hd med fbx.fbx
+  artifactKey: Guid(8606c21208a6abf4aa86e39e9938598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/baum hd med fbx.fbx using Guid(8606c21208a6abf4aa86e39e9938598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '167a18acc51828999d330c0fb297b98d') in 0.0545005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx
+  artifactKey: Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx using Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e59e32767eb6af8f385bf4d6a7c6f7a') in 0.017704875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Reticle_Torus.fbx
+  artifactKey: Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06bceb45c26088b009cac6d2ca223bf3') in 0.011179042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039481 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a286a983d22311307f6595eb6e1cb15b') in 0.025888792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
